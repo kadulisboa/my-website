@@ -28,6 +28,7 @@ header {
 
 .content {
     height: 100vh;
+    position: relative;
 }
 
 .content::after {
@@ -128,6 +129,8 @@ header {
 
     .mid {
         flex-direction: column;
+        align-items: flex-start;
+        padding-top: 30px;
     }
 
     .mid .title{
@@ -136,12 +139,12 @@ header {
     }
 
     .mid .title p{
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 0px
     }
 
     .mid .title h1{
-        font-size: 50px;
+        font-size: 40px;
         color: #069FD9;
         font-weight: 500;
         line-height: 40px;
@@ -149,19 +152,23 @@ header {
 
     .mid .img img {
         height: auto;
-        width: 100%;
+        width: 80%;
     }
 
     .mid .img {
         height: auto;
-        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-shadow: none;
     }
 
     .mid .img::after {
-        width: 90%;
-        height: 90%;
-        top: -20px;
-        left: -20px;
+        width: 80%;
+        height: 95%;
+        top: 20px;
+        left: 10px;
     }
 
 }

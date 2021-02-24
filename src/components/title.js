@@ -21,7 +21,7 @@ export default function Title({ name }) {
                 <a href="https://www.linkedin.com/in/kadulisboa/" target="_blank">
                     <img src={linkedin} />
                 </a>
-                <a href="https://www.linkedin.com/in/kadulisboa/" target="_blank">
+                <a href="https://github.com/kadulisboa" target="_blank">
                     <img src={github} />
                 </a>
             </div>

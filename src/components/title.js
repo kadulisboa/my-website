@@ -2,6 +2,7 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import instagram from '../assets/svg/instagram.svg';
 import linkedin from '../assets/svg/linkedin.svg';
+import github from '../assets/svg/github.svg';
 
 export default function Title({ name }) {
     return (
@@ -19,6 +20,9 @@ export default function Title({ name }) {
                 </a>
                 <a href="https://www.linkedin.com/in/kadulisboa/" target="_blank">
                     <img src={linkedin} />
+                </a>
+                <a href="https://www.linkedin.com/in/kadulisboa/" target="_blank">
+                    <img src={github} />
                 </a>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assets/images/logo.svg';
+import logo from './assets/svg/logo.svg';
 import './styles/App.css';
 import kadu from './assets/images/kadu.jpg';
 import Title from './components/title'
